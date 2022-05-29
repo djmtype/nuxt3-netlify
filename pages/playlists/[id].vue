@@ -10,7 +10,7 @@
 <script setup>
 	const route = useRoute();
 
-	const { data: playlists } = await useFetch(`/api/playlists`);
+	const { data: playlists } = await useFetch(`/api/playlistjson`);
 
 	const playlist = playlists.value.find(playlist => playlist.id === route.params.id);
 

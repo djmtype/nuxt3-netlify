@@ -17,7 +17,7 @@
 
 // import { ref } from 'vue'
 // // import slugify from '@sindresorhus/slugify';
-const { data: playlists } = await useFetch('/api/playlists');
+const { data: playlists } = await useFetch('/api/playlistjson');
 // const {data: playlists} = await useFetch("/api/playlists");
 
 // const info = ref(playlists);
